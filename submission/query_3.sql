@@ -4,7 +4,7 @@ CREATE TABLE malmarzooq80856.actors_history_scd (
   -- Actor's ID
   actor_id VARCHAR,
   -- Average rating of the movies for this actor in their most recent year
-  quality_class INTEGER,
+  quality_class VARCHAR,
   -- Indicates whether an actor is currently active in the film industry
   is_active BOOLEAN,
   -- The start date this row represents for the actor
