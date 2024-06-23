@@ -18,9 +18,9 @@ CREATE TABLE malmarzooq80856.actors (
   -- Indicates whether an actor is currently active in the film industry
   is_active BOOLEAN,
   -- The year this row represents for the actor
-  current_year VARCHAR
+  current_year INTEGER
 )
 WITH (
   FORMAT = 'PARQUET',
   partitioning = ARRAY['current_year']
-);
+)
