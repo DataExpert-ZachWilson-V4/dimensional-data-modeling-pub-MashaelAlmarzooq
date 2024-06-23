@@ -9,7 +9,6 @@ current_year AS (
     SELECT 
         actor, 
         actor_id,
-        year AS current_year,
       ARRAY_AGG(
         DISTINCT ROW(
           film,
