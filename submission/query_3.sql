@@ -1,4 +1,4 @@
-CREATE TABLE malmarzooq80856.actors_history_scd (
+CREATE OR REPLACE TABLE malmarzooq80856.actors_history_scd (
   -- Actor name
   actor VARCHAR,
   -- Actor's ID

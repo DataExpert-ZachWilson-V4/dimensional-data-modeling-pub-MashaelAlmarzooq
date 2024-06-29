@@ -1,4 +1,4 @@
-CREATE TABLE malmarzooq80856.actors (
+CREATE OR REPLACE TABLE malmarzooq80856.actors (
   -- Actor name
   actor VARCHAR,
   -- Actor's ID
@@ -11,7 +11,9 @@ CREATE TABLE malmarzooq80856.actors (
     -- The rating of the film
     rating DOUBLE,
     -- A unique identifier for each film
-    film_id VARCHAR
+    film_id VARCHAR,
+    -- The year
+    year INTEGER
   )),
   -- Average rating of the movies for this actor in their most recent year
   quality_class VARCHAR,
