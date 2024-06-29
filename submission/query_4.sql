@@ -46,4 +46,4 @@ GROUP BY
     actor,
     actor_id,
     quality_class,
-    did_change;
+    did_change
